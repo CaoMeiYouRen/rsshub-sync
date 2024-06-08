@@ -1,0 +1,57 @@
+{
+  "name": "rsshub-sync",
+  "version": "0.1.0",
+  "description": "同步 RSSHub 到 阿里云",
+  "author": "CaoMeiYouRen",
+  "private": true,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "cross-env NODE_ENV=production eslint src --fix --ext .ts,.js",
+    "build": "rimraf dist && tsc",
+    "dev": "cross-env NODE_ENV=development ts-node-dev src/index.ts",
+    "rm": "rimraf node_modules",
+    "watch": "tsc -w",
+    "start": "node ./dist/index",
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.6.1",
+    "@commitlint/config-conventional": "^18.6.3",
+    "@types/debug": "^4.1.12",
+    "@types/node": "^20.11.5",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "commitizen": "^4.2.3",
+    "cross-env": "^7.0.2",
+    "cz-conventional-changelog-cmyr": "^1.1.0",
+    "debug": "^4.3.4",
+    "eslint": "^8.50.0",
+    "eslint-config-cmyr": "^1.1.31",
+    "eslint-plugin-import": "^2.28.1",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "tslib": "^2.6.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog-cmyr"
+    }
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16"
+  },
+  "homepage": "https://github.com/CaoMeiYouRen/rsshub-sync#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaoMeiYouRen/rsshub-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CaoMeiYouRen/rsshub-sync/issues"
+  }
+}
