@@ -16,6 +16,14 @@
 
 > 同步 RSSHub 到 阿里云
 
+## 当前同步版本
+
+<!-- DOCKER_START -->
+```
+
+```
+<!-- DOCKER_END -->
+
 ## 🏠 主页
 
 [https://github.com/CaoMeiYouRen/rsshub-sync#readme](https://github.com/CaoMeiYouRen/rsshub-sync#readme)
