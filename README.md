@@ -18,12 +18,12 @@
 
 ## 当前同步版本
 
-<!-- BLOG_START -->
+<!-- DOCKER_START -->
 ```
 registry.cn-hangzhou.aliyuncs.com/caomeiyouren/rsshub:latest
 registry.cn-hangzhou.aliyuncs.com/caomeiyouren/rsshub:2024-06-09
 ```
-<!-- BLOG_END -->
+<!-- DOCKER_END -->
 
 ## 🏠 主页
 
