@@ -21,7 +21,7 @@
 <!-- DOCKER_START -->
 ```
 registry.cn-hangzhou.aliyuncs.com/caomeiyouren/rsshub:latest
-registry.cn-hangzhou.aliyuncs.com/caomeiyouren/rsshub:2024-06-09
+registry.cn-hangzhou.aliyuncs.com/caomeiyouren/rsshub:2024-06-10
 ```
 <!-- DOCKER_END -->
 
